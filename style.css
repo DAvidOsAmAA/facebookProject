@@ -1,0 +1,26 @@
+.facebookhead{
+  background-color:#0165E1;
+}
+.facebookheadtext{
+  margin-left: 7%;
+}
+body{
+  height:  900px;
+}
+.networkimg{
+  position: relative;
+  left: 7%;
+  top: 10%;
+}
+.loginInput{
+  height: 40px;
+}
+.btn1{
+  border: none;
+  width: 20%;
+  height: 40%;
+}
+.sign-in{
+  transform: scale(1.1);
+}
+

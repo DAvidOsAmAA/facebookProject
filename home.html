@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="slick.css">
+</head>
+
+<body>
+  <div
+    class="row d-flex container-fluid w-100 m-0 p-0 container-fluid justify-content-between shadow p-3  bg-body rounded ">
+    <!--profile pic container and icons-->
+    <div class="col-3  d-flex justify-content-around">
+      <img class="rounded-circle" src="images/360_F_328194664_RKSHvMLgHphnD1nwQYb4QKcNeEApJmqa.jpg"
+        style=" width: 50px; height: 100%;" alt="">
+      <span class="dropdown " style=" border: #6b6f76 1px solid; border-radius: 50%;" id="dropdownMenuButton1"
+        data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-sharp fa-solid fa-bell   fs-5 ms-3 me-3 "
+          style="color: gray; margin-top: 10px; "></i></span>
+      <ul class="dropdown-menu w-50" aria-labelledby="dropdownMenuButton1">
+        <li class=""><a class="dropdown-item" href="#">notification 1</a></li>
+        <li class=""><a class="dropdown-item" href="#">notification 2 </a></li>
+        <li class=""><a class="dropdown-item" href="#">notification 3</a></li>
+      </ul>
+      <span style="border: #6b6f76 1px solid; border-radius: 50%;"><i
+          class="fa-brands fa-facebook-messenger fs-5 ms-3 me-3" style="color: gray;  margin-top: 10px;"></i></span>
+      <span style="border: #6b6f76 1px solid; border-radius: 50%;"><i class="fa-sharp fa-solid fa-bars fs-5 ms-3 me-3"
+          style="color: #6b6f76; margin-top: 10px;"></i></span>
+    </div>
+    <!--section 2 in nav-->
+    <div class="col-3 d-flex justify-content-around">
+      <span><i class="fas fa-gamepad text-muted fs-4"></i></span>
+      <span><i class="fas fa-users fs-4"></i></span>
+      <span><i class="fas fa-store fs-4"></i></span>
+      <span><i class="fas fa-home fs-4"></i></span>
+    </div>
+    <div class="col-3 d-flex " style="position: relative;">
+      <input type="text" id="searchInput" class="form-control w-50" placeholder="Search...">
+      <ul id="searchResults" class="list-group mt-5 " style="position: absolute; width: 237px;"></ul>
+      <span style="margin-left: 10%;"><i class="fa-brands fa-facebook  "
+          style="color: #3122e3; font-size: 2.3rem; position: relative; top: 8%;"></i></span>
+      <!--<input type="text" name="search" id="search" class="rounded-pill h-75 w-50" placeholder="search here......" class="form-control">-->
+    </div>
+  </div>
+  <!--body-->
+  <div class="row container-fluid" style="height: auto; width:100% ">
+    <!--left bar-->
+    <div class="col-3 p-0 m-0  " style=" overflow-y: scroll; overflow-x: hidden;  left :0; top:15% ; height :600px">
+      <h3 class="fs-3" style="position: relative; left: 30px;">sponsored</h3>
+      <img src="images/3.jpg" style="width: 100px;" alt="">
+      <span class="">Lorem ipsum dolor sit amet.</span><br>
+      <img src="images/4.jpg" style="width: 100px; margin-top: 2%;" alt="">
+      <span>Lorem ipsum dolor sit amet.</span>
+      <hr>
+      <!--contact-->
+      <h3 class="ms-5">contacts</h3>
+      <img class="persomImg" src="images/person1.jpg"
+        style="width: 60px; height: 50px; border-radius: 50%; margin-top: 10px;" alt="">
+      <img src="images/circle-clipart-green-1.png" alt="" class="circle">
+      <span class=" ">person1</span><br>
+      <img class="persomImg" src="images/person2.jpg"
+        style="width: 60px; height: 50px; border-radius: 50%; margin-top: 10px;" alt="">
+      <img src="images/circle-clipart-green-1.png" alt="" class="circle">
+      <span class="">person2</span><br>
+      <img class="persomImg" src="images/person3.jpg"
+        style="width: 60px; height: 50px; border-radius: 50%; margin-top: 10px; " alt="">
+      <img src="images/circle-clipart-green-1.png" alt="" class="circle">
+      <span class="">person3</span><br>
+      <img class="persomImg" src="images/person4.jpg"
+        style="width: 60px; height: 50px; border-radius: 50%; margin-top: 10px;" alt="">
+      <img src="images/circle-clipart-green-1.png" alt="" class="circle">
+      <span class="">person4</span><br>
+      <img class="persomImg" src="images/person5.jpg"
+        style="width: 60px; height: 50px; border-radius: 50%; margin-top: 10px;" alt="">
+      <img src="images/circle-clipart-green-1.png" alt="" class="circle">
+      <span class="">person5</span><br>
+      <img class="persomImg" src="images/person6.jpg"
+        style="width: 60px; height: 50px; border-radius: 50%; margin-top: 10px;" alt="">
+      <img src="images/circle-clipart-green-1.png" alt="" class="circle">
+      <span class="">person6</span><br>
+      <img class="persomImg" src="images/prson7.webp"
+        style="width: 60px; height: 50px; border-radius: 50%; margin-top: 10px;" alt="">
+      <img src="images/circle-clipart-green-1.png" alt="" class="circle">
+      <span class="">person7</span><br>
+    </div>
+    <!--main session in the website-->
+    <div class="col-5">
+      <div class="d-flex " style="position: relative;">
+        <div class="w-25  mt-3 ms-2" style="position: relative; height: 143px; ">
+          <img src="images/person1.jpg" alt="" class="w-100 h-75 rounded-top">
+          <p style="position: absolute; left: 43%; bottom: 4%;"><i class="fa-solid fa-circle-plus"
+              style="color: #363ad6;"></i></p>
+          <div class="bg-primary h-25 fs-5 ps-3 rounded-bottom" style=" color: white;">creat story</div>
+        </div>
+
+        <div class="w-25  mt-3 ms-2" style="position: relative; height: 143px;  ">
+          <img src="images/person2.jpg" alt="" class="w-100 h-75 rounded-top">
+          <p class="h-25 bg-primary rounded-bottom ps-3" style="color: white;"> story1</p>
+        </div>
+        <div class="w-25  mt-3 ms-2" style="position: relative; height: 143px;  ">
+          <img src="images/person3.jpg" alt="" class="w-100 h-75 rounded-top">
+          <p class="h-25 bg-primary rounded-bottom ps-3" style="color: white;"> story1</p>
+        </div>
+        <div class="w-25  mt-3 ms-2" style="position: relative; height: 143px;  ">
+          <img src="images/person4.jpg" alt="" class="w-100 h-75 rounded-top">
+          <p class="h-25 bg-primary rounded-bottom ps-3" style="color: white;"> story1</p>
+        </div>
+      </div>
+      <!--post box-->
+      <div id="posting">
+
+        <div class="post-box w-100 p-0 m-0 container-fluid ">
+          <h2>Create a Post</h2>
+          <textarea id="post-text" placeholder="Write your post here..."></textarea>
+          <input type="file" id="photo-upload" accept="image/*">
+          <label for="photo-upload" class="labelupload"><i class="fa-solid fa-upload"></i>upload</label>
+          <button id="post-button" class="post-button1">Post</button>
+        </div>
+        <div class="posts">
+          <!-- Display posted content here -->
+        </div>
+        <div id="boxcontainerposts">
+        </div>
+      </div>
+    </div>
+<!--the third and last col-->
+<div class="col-4" style="position: relative; margin-top: 20px;">
+  <div class="position-absolute top-0 end-0">
+    <span style="font-size: 25px; ;">friends</span>
+    <span  style="font-size: 25px; margin-left: 25px"><i class="fa-solid fa-user-group" style="color: #2868d7;"></i></span>
+  </div>
+  <div style="margin-top: 50px;" class="position-absolute top-0 end-0">
+    <span style="font-size: 25px;">Memories</span>
+    <span  style="font-size: 25px; margin-left: 25px"><i class="fa-solid fa-clock-rotate-left" style="color: #3974db;"></i></span>
+  </div>
+  <div style="margin-top: 100px;" class="position-absolute top-0 end-0">
+    <span style="font-size: 25px;">groups</span>
+    <span  style="font-size: 25px; margin-left: 25px; ;"><i class="fa-solid fa-people-group" style="color: #2861c3;"></i></span>
+  </div>
+  <div style="margin-top: 150px;" class="position-absolute top-0 end-0">
+    <span style="font-size: 25px;">Videos</span>
+    <span  style="font-size: 25px; margin-left: 25px; ;"><i class="fa-solid fa-video" style="color: #2859af;"></i></span>
+  </div>
+  <div style="margin-top: 200px;" class="position-absolute top-0 end-0">
+    <span style="font-size: 25px;">markting</span>
+    <span  style="font-size: 25px; margin-left: 25px; ;"><i class="fa-solid fa-shop" style="color: #3b6dc4;"></i></span>
+  </div>
+  <p style="margin-top: 250px;" class="position-absolute top-0 end-0">Privacy · Terms · Ads · Ad Choices ·<br> Cookies · · Copyright Meta © 2023</p>
+</div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="jquery-3.7.0.min.js"></script>
+  <script src="home2.js"></script>
+  <script src="home.js"></script>
+  <script src="makingpost.js"></script>
+  <script src="bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
+  <script src="bootstrap-5.3.1-dist/js/"></script>
+  <script src="bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
+  <script src="slick.min.js"></script>
+</body>
+
+</html>

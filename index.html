@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css">
+</head>
+<body class="m-0 p-0 w-100">
+<!--heading-->
+<div class="facebookhead row   m-0   w-100 container-fluid" >
+  <div class="facebookheadtext col-5 text-light  mt-4  " ><h3>Facebook</h3></div>
+  <div class="row col-5" style="position: relative; left: 8.5%;">
+  <div class="col-12  row mb-3  mt-2 ">
+    <form action=""  id="lognform">
+      <label for="email" class=" text-light" >Email or Phone</label>
+      <label for="password" class=" text-light " style="position: relative; left:14%;">Password</label><bR>
+      <input type="email" id="email" class="pb-1" name="name">
+      <input type="password" id="password" class="pb-1" name="password">
+      <button type="submit" class="rounded bg-success text-light  btn1" onclick="login()">log in</button>
+    </form>
+  </div>
+  </div>
+</div>
+
+<!--body--> 
+
+<div class="row bg-secondary-subtle h-100 container-fluid me-0 w-100 m-0">
+  <!--img-->
+  <div class="row col-7">
+    <img class="col-12 w-75 h-50 networkimg" src="images/favpng_facebook-inc-social-networking-service-mymfb.png" alt="">
+  </div>
+  <!--login form-->
+  <div class="row col-5 ">
+    <div class="col-12">
+    <h1 class="fw-bold ">sign up</h1>
+    <p class="fw-normal">it is free and always will be</p>
+    <!--form-->
+    <form action="">
+      <input type="text" class="loginInput mt-2 pb-1 rounded" placeholder=" First Name" id="firstName">
+      <input type="text" class="loginInput mt-2 pb-1  rounded " placeholder=" Last Name" id="lastName"><br>
+      
+      <span id="errormes"></span>
+      <span id="lastNameError" ></span>
+    
+      <!--firstname-->
+      <input type="email"  class="loginInput w-100 mt-4 pb-1  rounded " placeholder=" Email or Phone number"id="eamilInput"><br>
+      <div id="emailEror"></div>
+      <input type="text" class="loginInput w-100 mt-4 pb-1  rounded" placeholder=" Re-enter Email or Phone number" id="reEmail"><br>
+      <div id="reEmailError"></div>
+      <!--email or phone-->
+      <input type="password"  class="loginInput w-100 mt-4 pb-1  rounded" placeholder=" New Password" id="passwordInput"><br>
+      <div id="passwordError"></div>
+      <!--password-->
+      <h4 class="mt-2">Birthday</h4>
+      <input type="number" class="p-1" style="width: 15%; " placeholder="Day" id="day">
+      <input type="number" class="p-1" style="width: 20%;" placeholder="Month" id="month">
+      <input type="number" class="p-1" style="width: 20%;" placeholder="Year" id="year"><br>
+      <span id="dayerror"></span>
+      <span id="monthError"></span>
+      <span id="yearError"></span>
+      <!--birthday-->
+      <h4 class="mt-2">Gender</h4>
+      <input type="radio" id="genderMale" name="gender">
+      <label for="genderMale" class="fs-4"  >Male</label>
+      <input type="radio" id="genderfamele" class="ms-3" name="gender">
+      <label for="genderMale" class="mb-4 fs-4" >famele</label>
+      <p class="text-secondary">by you click sign up you will agree to our <a href="">teams</a> <a href="">Data policy</a><br>
+      and <a href="">cookies policy</a></p>
+      <button type="button" class="rounded bg-success text-light pt-1  btn1 w-50" style="height: 45px;"><h3 class="sign-in" onclick="submit();">sign up</h3></button>
+        </form>
+  </div>
+  </div>
+</div>
+
+
+<script src="jquery-3.7.0.min.js"></script>
+<script src="makingpost.js"></script>
+<script src="path/to/bootstrap.min.js"></script>
+  <scripts src="bootstrap-5.3.1-dist/js/bootstrap.min.js"></scripts>
+  <script src="app.js"></script>
+</body>
+</html>
